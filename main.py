@@ -1,10 +1,8 @@
 import sys
-
-# Import your modules
-# Ensure these files are in the same directory as main.py
-from SessionManager import SessionManager
-from Accounts import AccountManager   # Importing from your new accounts.py
+from SessionManager import sessionManager
+from AccountManager import AccountManager   
 from Transactions import Transactions
+# from Account import account
 
 """
 main.py
