@@ -1,5 +1,5 @@
 import sys
-from SessionManager import sessionManager
+from SessionManager import SessionManager
 from AccountManager import AccountManager   
 from Transactions import Transactions
 # from Account import account
