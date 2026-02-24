@@ -1,0 +1,6 @@
+---- INPUT ----
+if admin == true:
+    <account holder's name>
+<account number>
+<amount to withdraw>
+---- END ----

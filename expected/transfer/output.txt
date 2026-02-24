@@ -1,0 +1,10 @@
+---- OUTPUT ----
+if "sender account number correlates to logged in account holder" && "recipient account number exists" && sender_account_balance >= transfer:
+    if standard == true && transfer > 1000.0:
+        failure
+    else:
+        [write bank accounts file]
+        success
+else:
+    failure
+---- END ----

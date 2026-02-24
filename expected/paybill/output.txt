@@ -1,0 +1,11 @@
+---- OUTPUT ----
+valid_company = ["The Bright Light Electric Company (EC)", "Credit Card Company Q (CQ)", "Fast Internet, Inc. (FI)"]
+if "account number correlates to logged in account holder" && "company is contained in valid_company array" && account_balance >= payment:
+    if standard == true && payment > 2000.0:
+        failure
+    else:
+        [write bank accounts file]
+        success
+else:
+    failure
+---- END ----

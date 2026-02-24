@@ -1,0 +1,7 @@
+---- INPUT ----
+if admin == true:
+    <account holder's name>
+<sender account number>
+<recipient account number>
+<amount to transfer>
+---- END ----

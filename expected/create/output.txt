@@ -1,0 +1,8 @@
+---- OUTPUT ----
+account_number = random(1, 99999)
+if admin == true && "account_number does not exist in bank accounts file" && account_holder.length <= 20 && balance <= 99999.99:
+    [write bank accounts file]
+    success
+else:
+    failure
+---- END ----

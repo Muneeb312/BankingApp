@@ -1,0 +1,7 @@
+---- OUTPUT ----
+if admin == true || standard == true:
+    [read bank accounts file]
+    success
+else:
+    failure
+---- END ----

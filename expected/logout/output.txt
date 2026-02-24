@@ -1,0 +1,7 @@
+---- OUTPUT ----
+if login == true:
+    [write bank accounts file]
+    success
+else:
+    failure
+---- END ----

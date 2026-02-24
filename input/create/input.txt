@@ -1,0 +1,4 @@
+---- INPUT ----
+<account holder's name>
+<initial balance>
+---- END ----

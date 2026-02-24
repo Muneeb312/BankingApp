@@ -1,0 +1,11 @@
+---- OUTPUT ----
+if "account number correlates to logged in account holder" && account_balance >= withdrawl:
+    if standard == true && withdrawl > 500.0:
+        failure
+    else:
+        [write bank accounts file]
+        success
+else:
+    failure
+---- END ----
+        
