@@ -1,7 +1,0 @@
----- OUTPUT ----
-if "account number correlates to logged in account holder":
-    [write bank accounts file]
-    success
-else:
-    failure
----- END ----

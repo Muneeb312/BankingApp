@@ -1,8 +1,0 @@
----- OUTPUT ----
-if admin == true && "account holder's name exists in bank accounts file" && "account number correlates to account holder":
-    set account payment plan to non-student
-    [write bank accounts file]
-    success
-else:
-    failure
----- END ----
