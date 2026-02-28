@@ -1,4 +1,3 @@
----- INPUT ----
-<account holder's name>
-<account number>
----- END ----
+login admin
+disable 12345 John
+logout

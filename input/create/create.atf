@@ -1,4 +1,3 @@
----- INPUT ----
-<account holder's name>
-<initial balance>
----- END ----
+login admin
+create 12345 John
+logout

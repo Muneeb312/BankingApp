@@ -1,4 +1,3 @@
----- INPUT ----
-<account holder's name>
-<account number>
----- END ----
+login admin
+delete 12345 John
+logout

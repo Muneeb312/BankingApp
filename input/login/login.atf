@@ -1,5 +1,2 @@
----- INPUT ----
-<"admin" or "standard">
-if "standard":
-    <account holder's name>
----- END ----
+login standard
+logout

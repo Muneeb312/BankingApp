@@ -1,7 +1,3 @@
----- INPUT ----
-if admin == true:
-    <account holder's name>
-<account number>
-<company name>
-<amount to pay>
----- END ----
+login standard
+paybill 12345 100 EC
+logout

@@ -1,6 +1,3 @@
----- INPUT ----
-if admin == true
-    <account holder's name>
-<account number>
-<amount to deposit>
----- END ----
+login standard
+deposit 12345 100
+logout
