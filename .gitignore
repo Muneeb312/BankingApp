@@ -1,0 +1,3 @@
+# .gitignore file for BankingApp project.
+__pycache__/
+tests/output/actual/
