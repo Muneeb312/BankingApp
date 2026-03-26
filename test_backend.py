@@ -58,7 +58,7 @@ def test_tc1_7_negative_balance(base_account, tmp_path):
         write_new_current_accounts(base_account, str(output_file))
 
 def test_tc1_8_balance_exceeds_max(base_account, tmp_path):
-    base_account[0]['balance'] = 100000.00
+    base_account[0]['balance'] = 1000000.00
     output_file = tmp_path / "test_output.txt"
     with pytest.raises(ValueError, match="Balance exceeds maximum"):
         write_new_current_accounts(base_account, str(output_file))

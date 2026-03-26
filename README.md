@@ -9,6 +9,7 @@ To run the front end test script, run this command in the terminal
 ```
 bash run_tests.sh
 ```
+
 To run the back end test cases, enter this command in the terminal:
 ```
 pytest test_backend.py -v
