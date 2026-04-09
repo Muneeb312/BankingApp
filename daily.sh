@@ -40,3 +40,18 @@ $BACKEND_CMD "$CURRENT_MASTER" "$MERGED_TRANS" "$NEW_MASTER"
 
 echo "--- Daily Processing Complete. Output generated: $NEW_MASTER ---"
 
+
+python -c "
+import sys
+filename = sys.argv[1]
+with open(filename, 'r') as f:
+    lines = f.readlines()
+with open(filename, 'w') as f:
+    for line in lines:
+        line = line.rstrip() # Remove the newline
+        if len(line) > 2:
+            # Take everything except the last 2 chars, add '0000 ', then add the last 2 chars
+            fixed_line = line[:-2] + '0000 ' + line[-2:] + '\n'
+            f.write(fixed_line)
+" "$NEW_MASTER"
+
