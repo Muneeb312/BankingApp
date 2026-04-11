@@ -16,7 +16,7 @@ def process_transactions(accounts, transaction_file_path):
         log_constraint_error("Transaction file not found.", transaction_file_path, fatal=True)
         return accounts
 
-    accounts = [acc for acc in accounts if acc['account_number'] != '00000']
+    accounts = [acc for acc in accounts if "END_OF_FILE" not in acc['name']]
     for trans_line in transactions:
         parts = trans_line.split()
         if not parts:
@@ -29,10 +29,78 @@ def process_transactions(accounts, transaction_file_path):
             continue
 
         # Example: Processing a Deposit (04)
-        elif trans_code == "04":
-            # Strip leading zeros from the account number to match the dictionary
+            # Withdrawals (01)
+        elif trans_code == "01":
             account_num = parts[1].lstrip('0') or '0'
             amount = float(parts[2])
+            for acc in accounts:
+                if acc['account_number'] == account_num:
+                    acc['balance'] -= amount
+                    acc['total_transactions'] += 1
+                    break
+
+        # Transfers (02)
+        elif trans_code == "02":
+            from_acc = parts[1].lstrip('0') or '0'
+            amount = float(parts[2])
+            to_acc = parts[3].lstrip('0') or '0'
+            # Deduct from first account
+            for acc in accounts:
+                if acc['account_number'] == from_acc:
+                    acc['balance'] -= amount
+                    acc['total_transactions'] += 1
+                    break
+            # Add to second account
+            for acc in accounts:
+                if acc['account_number'] == to_acc:
+                    acc['balance'] += amount
+                    acc['total_transactions'] += 1
+                    break
+
+        # Deposits (04)
+        elif trans_code == "04":
+            account_num = parts[1].lstrip('0') or '0'
+            amount = float(parts[2])
+            for acc in accounts:
+                if acc['account_number'] == account_num:
+                    acc['balance'] += amount
+                    acc['total_transactions'] += 1
+                    break
+
+        # Create Account (05)
+        elif trans_code == "05":
+            # INTEGRATION FIX: The Front End puts the Name BEFORE the Account Number.
+            # We will scan the line to find the first pure number and use that as the ID.
+            acc_index = 2  # Default assumption
+            for i in range(1, len(parts)):
+                if parts[i].isdigit():
+                    acc_index = i
+                    break
+
+            name = " ".join(parts[1:acc_index])  # Everything before the number is the name
+            account_num = parts[acc_index].lstrip('0') or '0'
+
+            new_account = {
+                'account_number': account_num,
+                'name': name,
+                'status': 'A',
+                'balance': 0.0,
+                'total_transactions': 0,
+                'plan': 'NP'
+            }
+            accounts.append(new_account)
+        # Delete Account (06)
+        elif trans_code == "06":
+            account_num = parts[1].lstrip('0') or '0'
+            accounts = [acc for acc in accounts if acc['account_number'] != account_num]
+
+        # Disable Account (07)
+        elif trans_code == "07":
+            account_num = parts[1].lstrip('0') or '0'
+            for acc in accounts:
+                if acc['account_number'] == account_num:
+                    acc['status'] = 'D'
+                    break
 
             for acc in accounts:
                 if acc['account_number'] == account_num:
