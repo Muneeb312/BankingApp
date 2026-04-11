@@ -14,12 +14,8 @@ To run the back end test cases, enter this command in the terminal:
 ```
 pytest test_backend.py -v
 ```
-To run the weekly script, open Git Bash in the root folder of the project, then run:
-```
-chmod +x daily.sh
 
-chmod +x weekly.sh
-
-./weekly.sh
+To run the weekly script, run this command in the root folder of the project:
 ```
-Note: If you recieve a `Python was not found` error, open daily.sh and replace `python` with either `py` or `python3` on lines 11, 12 and 44.
+bash weekly.sh
+```
