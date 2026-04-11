@@ -1,0 +1,3 @@
+login standard
+paybill 99999 EC 80.00
+logout

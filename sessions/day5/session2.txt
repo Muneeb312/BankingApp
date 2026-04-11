@@ -1,0 +1,3 @@
+login standard
+deposit 88888 150.00
+logout

@@ -1,0 +1,3 @@
+login standard
+withdrawal 99999 20.00
+logout

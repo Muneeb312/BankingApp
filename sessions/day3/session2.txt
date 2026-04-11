@@ -1,0 +1,3 @@
+login standard
+paybill 99999 XX 100.00
+logout

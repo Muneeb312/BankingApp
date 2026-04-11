@@ -1,0 +1,3 @@
+login standard
+withdrawal 88888 40.00
+logout

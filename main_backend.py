@@ -16,6 +16,7 @@ def process_transactions(accounts, transaction_file_path):
         log_constraint_error("Transaction file not found.", transaction_file_path, fatal=True)
         return accounts
 
+    accounts = [acc for acc in accounts if acc['account_number'] != '00000']
     for trans_line in transactions:
         parts = trans_line.split()
         if not parts:

@@ -1,0 +1,4 @@
+login admin
+create 99999 Alice
+create 88888 Bob
+logout

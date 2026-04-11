@@ -1,0 +1,3 @@
+login standard
+transfer 88888 12345 25.00
+logout

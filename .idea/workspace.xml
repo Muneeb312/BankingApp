@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="273a3202-2711-468e-897e-4fcaab090a87" name="Changes" comment="updated README.md">
+      <change beforePath="$PROJECT_DIR$/main_backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_backend.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Muneeb312&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Muneeb312/BankingApp.git&quot;,
+    &quot;accountId&quot;: &quot;3a5eb7c2-4686-4711-b550-0f6d55f051ab&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3ARWSUwLyKuK0AKYaZKFbPY9shP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests in test_backend.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_backend.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\mbroc\\AppData\\Roaming\\JetBrains\\PyCharm2025.3\\plugins\\Shell Script\\shellcheck.exe&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.31033.139" />
+        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="273a3202-2711-468e-897e-4fcaab090a87" name="Changes" comment="" />
+      <created>1772555862769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772555862769</updated>
+      <workItem from="1772555915882" duration="573000" />
+      <workItem from="1772556646433" duration="2185000" />
+      <workItem from="1773155947678" duration="3400000" />
+      <workItem from="1773688213883" duration="1240000" />
+      <workItem from="1773761431032" duration="3268000" />
+      <workItem from="1773765302454" duration="3539000" />
+      <workItem from="1774365627457" duration="2116000" />
+      <workItem from="1774539420531" duration="272000" />
+      <workItem from="1774971637617" duration="2880000" />
+      <workItem from="1775574900616" duration="712000" />
+      <workItem from="1775747390122" duration="5002000" />
+      <workItem from="1775875481352" duration="521000" />
+    </task>
+    <task id="LOCAL-00001" summary="backend main file">
+      <option name="closed" value="true" />
+      <created>1773158420744</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773158420744</updated>
+    </task>
+    <task id="LOCAL-00002" summary="backend main file">
+      <option name="closed" value="true" />
+      <created>1773761764195</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773761764195</updated>
+    </task>
+    <task id="LOCAL-00003" summary="backend main file">
+      <option name="closed" value="true" />
+      <created>1773761865102</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773761865102</updated>
+    </task>
+    <task id="LOCAL-00004" summary="backend tests">
+      <option name="closed" value="true" />
+      <created>1773769668761</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773769668761</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated README">
+      <option name="closed" value="true" />
+      <created>1773769682973</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773769682973</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated">
+      <option name="closed" value="true" />
+      <created>1774539688093</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774539688093</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added shell script files">
+      <option name="closed" value="true" />
+      <created>1774972194487</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774972194487</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updated daily.sh">
+      <option name="closed" value="true" />
+      <created>1774972772385</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1774972772385</updated>
+    </task>
+    <task id="LOCAL-00009" summary="updated daily.sh">
+      <option name="closed" value="true" />
+      <created>1775574925824</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1775574925824</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added build_sessions to create daily sessions folders">
+      <option name="closed" value="true" />
+      <created>1775750891270</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775750891270</updated>
+    </task>
+    <task id="LOCAL-00011" summary="updated bash script">
+      <option name="closed" value="true" />
+      <created>1775750910666</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775750910666</updated>
+    </task>
+    <task id="LOCAL-00012" summary="updated README.md">
+      <option name="closed" value="true" />
+      <created>1775750924760</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1775750924760</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="backend main file" />
+    <MESSAGE value="backend tests" />
+    <MESSAGE value="updated README" />
+    <MESSAGE value="updated" />
+    <MESSAGE value="added shell script files" />
+    <MESSAGE value="updated daily.sh" />
+    <MESSAGE value="added build_sessions to create daily sessions folders" />
+    <MESSAGE value="updated bash script" />
+    <MESSAGE value="updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated README.md" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BankingApp$.coverage" NAME=" Coverage Results" MODIFIED="1774365864853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BankingApp$main_backend.coverage" NAME="main_backend Coverage Results" MODIFIED="1773159203455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
