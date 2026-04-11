@@ -8,8 +8,8 @@ NEW_MASTER=$3
 
 MERGED_TRANS="merged_daily_transactions.txt"
 VALID_ACCOUNTS="valid_accounts.txt"
-FRONTEND_CMD="py main.py"
-BACKEND_CMD="py main_backend.py"
+FRONTEND_CMD="python3 main.py"
+BACKEND_CMD="python3 main_backend.py"
 
 echo "--- Starting Daily Processing for $SESSION_DIR ---"
 
@@ -40,7 +40,7 @@ $BACKEND_CMD "$CURRENT_MASTER" "$MERGED_TRANS" "$NEW_MASTER"
 
 echo "--- Daily Processing Complete. Output generated: $NEW_MASTER ---"
 
-py -c "
+python3 -c "
 import sys
 filename = sys.argv[1]
 with open(filename, 'r') as f:
