@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="273a3202-2711-468e-897e-4fcaab090a87" name="Changes" comment="updated README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily.sh" beforeDir="false" afterPath="$PROJECT_DIR$/daily.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_backend.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master_day0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/master_day0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master_day1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/master_day1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master_day2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/master_day2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master_day3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/master_day3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master_day4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/master_day4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master_day5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/master_day5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master_day6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/master_day6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master_day7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/master_day7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/merged_daily_transactions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/merged_daily_transactions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valid_accounts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/valid_accounts.txt" afterDir="false" />
-    </list>
+    <list default="true" id="273a3202-2711-468e-897e-4fcaab090a87" name="Changes" comment="updated README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +81,7 @@
       <workItem from="1774971637617" duration="2880000" />
       <workItem from="1775574900616" duration="712000" />
       <workItem from="1775747390122" duration="5002000" />
-      <workItem from="1775875481352" duration="1922000" />
+      <workItem from="1775875481352" duration="2249000" />
     </task>
     <task id="LOCAL-00001" summary="backend main file">
       <option name="closed" value="true" />
